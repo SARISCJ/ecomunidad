@@ -1,0 +1,252 @@
+/* --- portada --- */
+
+.logo {
+	width: 50%;
+	margin-left: 30%;
+}
+
+.botones {
+	position: relative;
+	padding-top:4%;
+}
+
+.botones nav{
+	color: #B9B9B9;
+}
+
+.botones nav a {
+	font-size: 18px;
+	padding: 0 3%;
+	text-decoration: none;
+	color: #B9B9B9;
+}
+
+.botones nav a:hover {
+	color: #B9B9B9;
+}
+
+.banner {
+	height: 500px;
+	width: 100%;
+	max-width: 1280px;
+  	margin: 0 auto;
+  	padding: 0;
+  	position: relative;
+	overflow: hidden;
+}
+
+img.portada {
+	position: absolute;
+	width: 120%;
+	top: -270px;
+	left: -100px;
+
+}
+
+.subportada {
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+	background-color: #F2F2F2;
+	height: 160px;
+}
+
+.textoportada {
+	width: 50%;
+	margin: 0 auto;
+}
+
+/* -- mision y vision--- */
+
+.mivi{
+	font-size: 28px;
+}
+
+.textomisvis {
+	width: 70%;
+	margin: 0 auto;
+}
+
+/* -- metodologia --- */
+
+.metodologia .foto1 {
+	background-image: url(../img/metodo.JPG);
+	background-size: cover;
+	height: 450px;
+}
+
+.metodologia .fondo1 {
+	background-image: url(../img/fondo.jpg);
+	background-position: center;
+	height: 450px;
+}
+
+.fondo1 img {
+	margin: 15% 0 2% 0;
+}
+
+.texto h1 {
+	margin: 2%;
+}
+
+.texto p {
+	width: 70%;
+	margin: 0 auto;
+}
+/* -- SERIVICIOS --- */
+
+.textoservicio {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.textoservicio h2 {
+	font-size: 20px;
+	margin-bottom: 2%;
+}
+
+.grupo{
+	padding: 5% 15% 0;
+;
+}
+.servicios div p {
+	margin-bottom: 4%;
+}
+
+.servicios .row p {
+	padding: 5% 10% 20%;
+}
+
+/* -- PROYECTOS --- */
+
+.proyectos {
+	width: 100%;
+	max-width: 1280px;
+  	margin: 0 auto;
+	background-color: #5E8039;
+	text-align: left;
+	color: white;
+	padding: 40px 30px;
+}
+
+.proyectos img {
+	width: 600px;
+	padding: 2%;
+}
+
+.nombre-proyecto {
+	padding-top: 5%;
+}
+.distrito{
+	padding-top: 2%;
+}
+
+.proyecto1 {
+	padding-top: 5%;
+}
+/* -- EQUIPO --- */
+
+.retrato {
+	width: 250px;
+	height: 250px;
+	border-radius: 600px;
+	overflow: hidden;
+}
+
+h2.nombre {
+	margin: 4% 0;
+	font-size: 25px;
+}
+
+img.icon {
+	width: 40px;
+	height: 40px;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+
+.bajada{
+	width: 50%;
+	margin: 0 auto;
+}
+
+/* --- BLOG --- */
+
+.blog {
+	background-image: url(../img/fondo2.jpg);
+	background-size: cover;
+	height: 400px;
+	padding: 0 15%;
+}
+
+.blog h2 {
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.blog img {
+	width: 100%;
+}
+
+.blog .blog1 {
+	text-decoration: none;
+	color: grey;
+}
+
+.blog1 {
+	text-decoration: none;
+	color: grey;
+}
+/* --- CONTACTO --- */
+
+.contacto {
+  	margin: 0 auto;
+	background-color: grey;
+	padding: 40px 40px;
+}
+
+table {
+	border: 1px solid white;
+	margin: 0 auto;
+}
+
+.contacto td {
+	font-size: 30px;
+	color: white;
+	padding: 30px 50px;
+	margin: 0 auto;
+	border: 1px solid white;
+}
+
+.contacto img {
+	width: 180px;
+	height: 150px;
+	position: relative;
+	display: block;
+	margin-top: 5%;
+}
+
+
+/* --- FOOTER --- */
+
+.footer {
+	width: 100%;
+	max-width: 1280px;
+  	margin: 0 auto;
+  	left: 0;
+	height: 50px;
+	padding: 3% 2%;
+	background-color: #DBDDDD;
+	color: grey;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #FFB73D;
+}
+
+p.text-right:first-child {
+	white-space: pre-line;
+	text-align: right;
+	font-weight: bold;
+}
